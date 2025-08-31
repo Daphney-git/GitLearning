@@ -1,0 +1,5 @@
+$env:TEST_ENVIRONMENT="dev"; $env:TEST_USERNAME="ZGFwaG5leSt1c2VydGVzdDJAaGFiaXRudS5jb20=";
+ $env:TEST_PASSWORD="V2VsY29tZTIwMThA"; npx playwright test profilepage.test.ts --ui
+
+
+$env:TEST_ENVIRONMENT="devpower";$env:TEST_USERNAME="ZGFwaG5leSt1c2VyQGhhYml0bnUuY29t";$env:TEST_PASSWORD="V2VsY29tZTIwMThA"; npx playwright test profilepage.test.ts --ui
